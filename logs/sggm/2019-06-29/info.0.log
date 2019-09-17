@@ -1,0 +1,476 @@
+[INFO ] 2019-06-29 15:20:51 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=71976f6f-3acb-30b7-9650-af8b610647a5
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a93ec207] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c558c504] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1752 ms
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@433a3006
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561792859679 with initial instances count: 1
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 15:20:51 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561792859686, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 15:20:51 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:20:51 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 15:20:51 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 15:20:51 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 11.369 seconds (JVM running for 12.504)
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(4)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2019-06-29 15:20:51 [http-nio-2222-exec-1] c.w.b.c.d.DataSourceContextHolder - 数据库切换到写库...
+[INFO ] 2019-06-29 15:20:51 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2019-06-29 15:24:47 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=71976f6f-3acb-30b7-9650-af8b610647a5
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3351c587] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4f6bc884] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1801 ms
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1e7334d7
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561793095002 with initial instances count: 1
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 15:24:47 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561793095008, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 15:24:47 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:24:47 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 15:24:47 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 15:24:47 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 11.592 seconds (JVM running for 12.801)
+[INFO ] 2019-06-29 15:24:47 [RMI TCP Connection(4)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 15:24:47 [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:24:47 [RMI TCP Connection(6)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:24:47 [RMI TCP Connection(6)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+[INFO ] 2019-06-29 15:25:04 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=71976f6f-3acb-30b7-9650-af8b610647a5
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fbc2f2c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17dcf5bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1785 ms
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@180d5a2b
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561793111798 with initial instances count: 1
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 15:25:04 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561793111805, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 15:25:04 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:25:04 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 15:25:04 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 15:25:04 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 11.35 seconds (JVM running for 12.635)
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(4)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(6)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(6)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2019-06-29 15:25:04 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2019-06-29 15:25:04 [http-nio-2222-exec-1] c.w.b.c.d.DataSourceContextHolder - 数据库切换到写库...
+[INFO ] 2019-06-29 15:25:42 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=71976f6f-3acb-30b7-9650-af8b610647a5
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37d30365] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$53ed0662] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1741 ms
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@183ccb0c
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561793150661 with initial instances count: 1
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 15:25:42 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561793150668, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 15:25:42 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:25:42 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 15:25:42 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 15:25:42 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 11.567 seconds (JVM running for 12.67)
+[INFO ] 2019-06-29 15:25:42 [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 15:25:42 [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:25:42 [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:25:42 [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2019-06-29 15:25:42 [http-nio-2222-exec-2] c.w.b.c.d.DataSourceContextHolder - 数据库切换到写库...
+[INFO ] 2019-06-29 15:25:42 [http-nio-2222-exec-2] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-29 15:25:42 [RMI TCP Connection(2)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2019-06-29 15:25:42 [RMI TCP Connection(2)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2019-06-29 15:25:42 [http-nio-2222-exec-3] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 15:25:42 [http-nio-2222-exec-4] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 15:25:42 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=71976f6f-3acb-30b7-9650-af8b610647a5
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3c70a2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$efe10d29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1744 ms
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6c3db0f9
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561793703639 with initial instances count: 1
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 15:34:55 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561793703646, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 15:34:55 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 15:34:55 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 15:34:55 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 15:34:55 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 11.453 seconds (JVM running for 12.485)
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(2)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(2)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2019-06-29 15:34:55 [RMI TCP Connection(2)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2019-06-29 15:34:55 [http-nio-2222-exec-2] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 15:34:55 [http-nio-2222-exec-3] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 15:34:55 [http-nio-2222-exec-4] c.w.b.c.d.DataSourceContextHolder - 数据库切换到写库...
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [http-nio-2222-exec-1] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 15:34:55 [http-nio-2222-exec-5] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 16:58:58 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=71976f6f-3acb-30b7-9650-af8b610647a5
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c857414] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$989f7711] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1732 ms
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@16ffc32c
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561798745708 with initial instances count: 1
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 16:58:58 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561798745715, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 16:58:58 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 16:58:58 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 16:58:58 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 16:58:58 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 11.33 seconds (JVM running for 12.313)
+[INFO ] 2019-06-29 16:58:58 [RMI TCP Connection(4)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 16:58:58 [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 16:58:58 [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 16:58:58 [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+[INFO ] 2019-06-29 16:58:58 [http-nio-2222-exec-2] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 16:58:58 [http-nio-2222-exec-2] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-29 16:58:58 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2019-06-29 16:58:58 [RMI TCP Connection(4)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2019-06-29 16:58:58 [http-nio-2222-exec-3] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 16:58:58 [http-nio-2222-exec-4] c.w.b.c.d.DataSourceContextHolder - 数据库切换到读库...
+[INFO ] 2019-06-29 20:40:10 [restartedMain] com.wen.baseface.BaseFaceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.cloud.context.scope.GenericScope - BeanFactory id=8a37508e-fd5f-38a0-86cd-6951894e724b
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$190fe867] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3529eb64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2222 (http)
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1813 ms
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1dca81a7
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- writeDataSource init ---------------------
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read01 DataSourceOne init ---------------------
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.w.b.c.d.DataSourceConfiguration - -------------------- read02 DataSourceTwo init ---------------------
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.w.b.c.d.MybatisConfiguration - --------------------  sqlSessionFactory init ---------------------
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [public/index.html]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1561812018963 with initial instances count: 1
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry - Registering application SERVICE-BASE with eureka with status UP
+[INFO ] 2019-06-29 20:40:10 [restartedMain] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1561812018970, current=UP, previous=STARTING]
+[INFO ] 2019-06-29 20:40:10 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222: registering service...
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-BASE/localhost:service-base:2222 - registration status: 204
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.io.IOException
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.util.concurrent.TimeoutException
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-1] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@73be1e7: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-2] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-2] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-2] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@53b3a3f0: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-3] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-3] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-3] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@4712711b: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-4] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-4] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-4] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@1a1062d0: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-5] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@5079205e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@6a7b5425: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@612d9ecc: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-5] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@486f215c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@52e450a2: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@335d357b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@20e805a1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@124333c7: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@ade91c6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2222"]
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2222 (http) with context path ''
+[INFO ] 2019-06-29 20:40:10 [restartedMain] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2222
+[INFO ] 2019-06-29 20:40:10 [restartedMain] com.wen.baseface.BaseFaceApplication - Started BaseFaceApplication in 166.713 seconds (JVM running for 167.738)
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(14)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(14)-127.0.0.1] o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(16)-127.0.0.1] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@3f31a513: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-5] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@512de371: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(16)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(16)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+[INFO ] 2019-06-29 20:40:10 [RMI TCP Connection(16)-127.0.0.1] c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-6] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]
+[INFO ] 2019-06-29 20:40:10 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.l.SimpleMessageListenerContainer - Restarting Consumer@2f4202dc: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+[INFO ] 2019-06-29 20:40:10 [simpleMessageListenerContainer_one-6] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.233.128:15672]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IDEAwen.iml" filepath="$PROJECT_DIR$/.idea/IDEAwen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test916/Test916.iml" filepath="$PROJECT_DIR$/Test916/Test916.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/base/base.iml" filepath="$PROJECT_DIR$/services/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/base/base-api/base-api.iml" filepath="$PROJECT_DIR$/services/base/base-api/base-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/base/base-face/base-face.iml" filepath="$PROJECT_DIR$/services/base/base-face/base-face.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/consumer/consumer.iml" filepath="$PROJECT_DIR$/services/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/demo/demo.iml" filepath="$PROJECT_DIR$/services/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/demo1/demo1.iml" filepath="$PROJECT_DIR$/services/demo1/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/services/rabbitmq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/rabbitmq-consumer/rabbitmq_consumer.iml" filepath="$PROJECT_DIR$/services/rabbitmq-consumer/rabbitmq_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/service-eureka.iml" filepath="$PROJECT_DIR$/springcloud/service-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/wakaka/wakaka.iml" filepath="$PROJECT_DIR$/services/wakaka/wakaka.iml" />
+    </modules>
+  </component>
+</project>

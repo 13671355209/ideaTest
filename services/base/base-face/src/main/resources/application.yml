@@ -1,0 +1,113 @@
+
+
+
+server:
+ port: 22331
+eureka:
+ instance:
+  hostname: localhost
+ client:
+  serviceUrl:
+   defaultZone: http://${eureka.instance.hostname}:1111/eureka/
+
+
+
+spring:
+  application:
+    name: service-base
+  rabbitmq:
+   host: 192.168.233.128
+   port: 5672
+   username: guest
+   password: guest
+   virtual-host: /
+
+
+
+
+logging:
+  config:
+   path: classpath:log4j.xml
+ # level:
+ #   com.*.dao: DEBUG
+ # level:
+   # com.wen.baseface.dao: DEBUG
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params:
+
+mybatis:
+  mapperLocations: classpath:mappings/**/*.xml
+  configLocation: classpath:mybatis-config.xml
+  # spring boot集成mybatis的方式打印sql
+  #configuration:
+   # log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mysql:
+  datasource:
+    readSize: 2  #读库个数
+    type: com.alibaba.druid.pool.DruidDataSource
+    mapperLocations: classpath:mappings/**/*.xml
+    configLocation: classpath:/mybatis-config.xml
+    write:
+      url: jdbc:mysql://192.168.233.128:3306/test?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      minIdle: 5
+      maxActive: 100
+      initialSize: 10
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 50
+      removeAbandoned: true
+      filters: stat
+    read01:
+      url: jdbc:mysql://192.168.233.129:3306/test?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: MyNewPass4!
+      driver-class-name: com.mysql.jdbc.Driver
+      minIdle: 5
+      maxActive: 100
+      initialSize: 10
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 50
+      removeAbandoned: true
+      filters: stat
+    read02:
+      url: jdbc:mysql://192.168.233.129:3306/test?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: MyNewPass4!
+      driver-class-name: com.mysql.jdbc.Driver
+      minIdle: 5
+      maxActive: 100
+      initialSize: 10
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 50
+      removeAbandoned: true
+      filters: stat
+
+
+

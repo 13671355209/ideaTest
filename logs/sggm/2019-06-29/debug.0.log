@@ -1,0 +1,15 @@
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-2] c.w.b.d.T.selectByExample - ==>  Preparing: select sid, userName, sex, age, remark from test_user 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-2] c.w.b.d.T.selectByExample - ==> Parameters: 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-2] c.w.b.d.T.selectByExample - <==      Total: 19
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-3] c.w.b.d.T.selectByExample - ==>  Preparing: select sid, userName, sex, age, remark from test_user 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-3] c.w.b.d.T.selectByExample - ==> Parameters: 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-3] c.w.b.d.T.selectByExample - <==      Total: 19
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-4] c.w.b.d.T.insertSelective - ==>  Preparing: insert into test_user ( userName, sex, age, remark ) values ( ?, ?, ?, ? ) 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-4] c.w.b.d.T.insertSelective - ==> Parameters: 123(String), 123(String), 123(String), 驱蚊器翁(String)
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-4] c.w.b.d.T.insertSelective - <==    Updates: 1
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-1] c.w.b.d.T.selectByExample - ==>  Preparing: select sid, userName, sex, age, remark from test_user 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-1] c.w.b.d.T.selectByExample - ==> Parameters: 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-1] c.w.b.d.T.selectByExample - <==      Total: 20
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-5] c.wen.baseface.dao.UserMapper.query - ==>  Preparing: select id ,user_name from sys_user where 1=1 and user_name like CONCAT('%',?,'%') LIMIT ? 
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-5] c.wen.baseface.dao.UserMapper.query - ==> Parameters: 哇咔咔(String), 2(Integer)
+[DEBUG] 2019-06-29 15:34:55 [http-nio-2222-exec-5] c.wen.baseface.dao.UserMapper.query - <==      Total: 2
